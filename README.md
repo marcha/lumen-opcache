@@ -1,4 +1,4 @@
-# Laravel OPcache
+# Lumen OPcache
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/Marcha/lumen-opcache.svg?style=flat-square)](https://packagist.org/packages/Marcha/lumen-opcache)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
