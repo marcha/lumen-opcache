@@ -19,6 +19,12 @@ You can install the package via Composer:
 composer require Marcha/laravel-opcache
 ```
 
+Add the following line in your `bootstrap/app.php` file to register the provider:
+
+``` php
+$app->register(Marcha\Opcache\OpcacheServiceProvider::class);
+```
+
 If you need to change config values, you can publish the config file with:
 
 ```bash
@@ -29,6 +35,10 @@ Make sure your APP_URL is set correctly in .env.
 
 If you want to set a different url to call the OPcache routes (for use with a load balancer for example),
 you can set OPCACHE_URL.
+
+
+
+
 
 ## Usage
 
